@@ -1302,11 +1302,11 @@ async def spam(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝐍𝐎𝐁𝐈𝐓𝐀_𝐗𝐃 💫"
+        text = "🤤 🇧 🇭 🇦 🇺 🇰 🇦 🇦 🇱 🤤"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🔥𝐍𝐎𝐁𝐈𝐓𝐀_𝐗𝐃 !\n`{ms}` 𝗺𝘀\n𝐌𝐀𝐇𝐀𝐊𝐀𝐋_𝐗𝐃_𝐒𝐏𝐀𝐌 👹🔥\n ")
+        await event.edit(f"🤤 🇧 🇭 🇦 🇺 🇰 🇦 🇦 🇱 🤩=͟͟͞͞⚡🇧 🇦 🇧 🇦 =͟͟͞͞⚡🤩 sᴘᴀᴍ !\n`{ms}` 𝗺𝘀\n💥💥Տᑭᗴᗴᗪ ᑭᗩKKᗩᗪ ᗷᗩᗩᑭ KI ᑕᕼOᗪᗪᗴ💥💥\n ")
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1340,7 +1340,7 @@ async def ping(e):
 @boy.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙...\n\nPing after 60 seconds"
+        text = " 🇺 ᖴᖴ 🇩 OᖇᗴᗰOᑎ 🇰 I 🇬 ᗩᑎᗪ 🇩 ᗴKᕼ 🇰 ᗴ 🇦 Tᗩ 🇭 🇺  \n\nPing after 60 seconds"
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
