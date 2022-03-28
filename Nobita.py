@@ -1099,7 +1099,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Joined..♈️")
+                await event.edit(" 🔥🇷 🇺 🇰  🇦 🇾 🇦  🇨 🇭 🇴 🇩  🇰 🇪  💥💥")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1147,7 +1147,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Joined..♈️")
+                await event.edit(" 🇭 ᗩᕼᗩᕼᗩᕼᗩ 🇵 ᖇIᐯᗩTᗴ 🇲 ᗴ 🇨 ᕼᑌᗪᗴᘜI 🇦 ᒍᒍ ❤️‍🔥")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1192,7 +1192,7 @@ async def _(e):
         if len(e.text) > 7:
             bc = aries[0]
             bc = int(bc)
-            text = "Leaving..🤧"
+            text = " 🇧 ᗩᗩᑭ 🇸 ᗴ 🇨 ᕼᑌᗪ 🇬 Yᗴ 🇨 ᕼᑌTIYᗴ🤤🤤"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
