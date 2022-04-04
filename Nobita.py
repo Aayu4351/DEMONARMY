@@ -97,7 +97,7 @@ boy = ""
 
 que = {}
 
-SMEX_USERS = [5275980328,1511095236]
+SMEX_USERS = [1979178376,5213934604]
 for x in SUDO: 
     SMEX_USERS.append(x)
     
