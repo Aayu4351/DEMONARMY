@@ -25,7 +25,7 @@
 
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NOBITAXDD/NOBITA_SPAM_BOTS)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 ------------------------------------------------
 
 ### 🖇️ String session ⚡
